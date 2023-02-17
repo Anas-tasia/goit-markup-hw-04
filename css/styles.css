@@ -4,6 +4,25 @@ body {
     background-color: var(--background-color)     
 }
 
+html {
+	box-sizing: border-box;
+}
+*,
+*::after,
+*::before {
+	box-sizing: inherit;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+	margin: 0;
+}
+
 :root{
     --white-color-button:#FFFFFF;
     --blue-color-button:#4D5AE5;
@@ -25,8 +44,7 @@ body {
 }
 
 .header{
-    display: block;
-    margin: 0px;
+    border-bottom: 1px solid #E7E9FC;
 }
 
 .logo-web{
@@ -61,7 +79,6 @@ margin-right: 76px;
 .navigation-container{
     display: flex; 
     align-items: center;
-    border-bottom: 1px solid #E7E9FC;
 }
 
 .navigation-item{
@@ -153,25 +170,23 @@ text-decoration: underline  #404BBF;
     margin-left: 0px;
 }
 
-.hero-title-container{
-    width: auto;
-    height: 600px;
-    background: #2E2F42;
-}
 
 .hero-title{
+    margin: 0;
+    margin-left: auto;
+    margin-right: auto;
     font-size: 56px;
     line-height: 1.07;
     text-align: center;
-    padding-top: 188px;
     color:var(--white-color-text);
 }
 
-.section{
+.hero-section{
     background: #2E2F42;
+    padding: 188px;
 }
 
-.second-section-container{
+.features-section{
     list-style-type: none;
     display: flex;
     align-items: center;
@@ -186,6 +201,7 @@ background: var(--button-service-color);
 margin-left: auto;
 margin-right: auto;
 border: 0px;
+border-radius: 4px;
 }
 
 .button-service:hover,
@@ -318,7 +334,7 @@ background: #FFFFFF;
     text-transform: uppercase;
     color: var(--logo-footer-web);
     padding-top: 100px;
-    padding-left: 156px;
+    margin-left: 156px;
     }
     
 .logo-footer-web{
@@ -332,5 +348,5 @@ background: #FFFFFF;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--white-color-text);
-    padding-left: 156px;
-    }
+    margin-left: 156px;
+}
