@@ -23,6 +23,27 @@ p {
 	margin: 0;
 }
 
+ul {
+	list-style: none;
+	padding-left: 0;
+	margin: 0;
+}
+
+a {
+	text-decoration: none;
+	color: inherit;
+}
+
+img {
+	display: block;
+	max-width: 100%;
+	height: auto;
+}
+
+address {
+	font-style: normal;
+}
+
 :root{
     --white-color-button:#FFFFFF;
     --blue-color-button:#4D5AE5;
@@ -45,6 +66,7 @@ p {
 
 .header{
     border-bottom: 1px solid #E7E9FC;
+    padding: 24px;
 }
 
 .logo-web{
@@ -186,6 +208,11 @@ text-decoration: underline  #404BBF;
     padding: 188px;
 }
 
+.team-section{
+    background: #F4F4FD;
+    padding: 120px;
+}
+
 .features-section{
     list-style-type: none;
     display: flex;
@@ -218,7 +245,8 @@ background: #404BBF;
     flex-direction: row;
     justify-content: center;
     gap: 24px;   
-    padding-left: 0px;
+    margin-top: 96px;
+    margin-bottom: 72px;
 }
 
 .list-button-item{
@@ -252,7 +280,7 @@ color: var(--white-color-text);
     display: flex;
     flex-wrap: wrap;
     gap: 24px;
-    padding-left: 0px;
+    padding-bottom: 120px;
 }
 
 .images-item{
