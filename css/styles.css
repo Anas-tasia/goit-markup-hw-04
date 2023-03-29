@@ -394,6 +394,9 @@ padding: 32px 16px;
 .team-social{
     height: 40px;
     width: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
 }
 
 .team-icons{
