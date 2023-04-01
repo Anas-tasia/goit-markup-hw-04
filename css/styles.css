@@ -397,6 +397,7 @@ padding: 32px 16px;
 .team-social{
     height: 40px;
     width: 40px;
+    border-radius: 50%;
     background-color: #4D5AE5; 
 }
 
