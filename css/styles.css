@@ -427,6 +427,7 @@ padding: 32px 16px;
 
 .customers-list{
     display: flex;
+    justify-content: center;
     margin: 0 156px;
     gap: 24px;
 }
@@ -440,13 +441,16 @@ border: 1px solid #8E8F99;
 }
 
 .customers-rectangle-link{
-    height: 40px;
-    width: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 56px;
+    width: 104px;
 }
 
 .customers-rectangle-icons{
-    width: 24px;
-    height: 24px;
+    width: 104px;
+    height: 56px;
     fill:#AFB1B8;
 }
 
