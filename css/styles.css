@@ -433,11 +433,13 @@ padding: 32px 16px;
 }
 
 .customers-rectangle{
-height: 88px;
-width: 168px;
-border-radius: 4px;
-background: #E5E5E5;
-border: 1px solid #8E8F99;
+    display: flex;
+    justify-content: center;
+    height: 88px;
+    width: 168px;
+    border-radius: 4px;
+    background: #E5E5E5;
+    border: 1px solid #8E8F99;
 }
 
 .customers-rectangle-link{
