@@ -464,6 +464,11 @@ border: 1px solid #404BBF;
 fill: #404BBF;
 }
 
+.customers-rectangle-icons:hover,
+.customers-rectangle-icons:focus{
+fill: #404BBF;
+}
+
 .footer{
     background: #2E2F42;
     padding-top: 100px;
