@@ -8,6 +8,7 @@
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
         <link rel="stylesheet" href="./css/styles.css">   
         <link rel="stylesheet" href="node_modules/modern-normalize/modern-normalize.css"> 
     </head>
@@ -17,7 +18,7 @@
             <nav class="header-navigation">
                 <a href="/index.html" class="logo-link"><span class="logo-web">Web</span>Studio</a>
                 <ul class="navigation-list">
-                    <li class="navigation-item"><a class="link-navigation-item" href="./index.html">Studio</a></li>
+                    <li class="navigation-item"><a class="link-navigation-item current" href="./index.html">Studio</a></li>
                     <li class="navigation-item"><a class="link-navigation-item" href="./portfolio.html">Portfolio</a></li>
                     <li class="navigation-item"><a class="link-navigation-item" href="">Contacts</a></li>
                 </ul>
@@ -35,7 +36,7 @@
                 <div class="container"> 
                 <h1 class="hero-title">Effective Solutions
                     for Your Business</h1>
-                    <button type="button" class="button-service"><span class="button-service-text">Order Service</span></button>
+                    <button type="button" class="button-service" data-modal-open><span class="button-service-text">Order Service</span></button>
                     </div>
             </section>
             <section class="features-section">
@@ -357,4 +358,12 @@
             </div>
             </div>
         </footer>
+        <div class="backdrop is-hidden" data-modal>
+            <div class="modal">
+                <button class="modal-close" data-modal-close>X</button>
+            </div>
+        </div>
+        <script src="./js/modal.js"></script>
+    </body>
+</html> 
   
