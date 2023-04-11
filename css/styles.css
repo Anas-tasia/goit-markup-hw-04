@@ -463,14 +463,13 @@ padding: 32px 16px;
 }
 
 .customers-rectangle:hover,
-.customers-rectangle:focus{
-border: 1px solid #404BBF;
-fill: #404BBF;
+.customers-rectangle:focus {
+  border: 1px solid #404BBF;
 }
 
-.customers-rectangle-icons:hover-within .customers-rectangle-icons,
-.customers-rectangle-icons:focus-within .customers-rectangle-icons{
-fill: #404BBF;
+.customers-rectangle:hover .customers-rectangle-icons,
+.customers-rectangle:focus .customers-rectangle-icons {
+  fill: #404BBF;
 }
 
 .footer{
